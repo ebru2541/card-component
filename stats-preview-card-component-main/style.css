@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: hsl(228, 45%, 44%);
+  font-size: 15px;
+  /* color: hsl(228, 45%, 44%); */
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   align-items: center;
   border: 2px solid blue;
   height: 100vh;
+  background-color: hsl(233, 47%, 7%);
 }
 
 main {
@@ -18,9 +20,26 @@ main {
   grid-template-columns: 1fr 1fr;
   border: 2px solid red;
   width: 80%;
+  background-color: hsl(244, 38%, 16%);
 }
 
+.text {
+  padding: 30px;
+  color: aliceblue;
+}
+.text h3 span {
+  color: hsl(277, 64%, 61%);
+}
+.text p {
+  color: hsla(0, 0%, 100%, 0.6);
+}
 .img img {
   width: 100%;
   height: 100%;
+  background: hsl(277, 64%, 61%);
+}
+
+.alt {
+  display: flex;
+  margin-top: 20px;
 }
