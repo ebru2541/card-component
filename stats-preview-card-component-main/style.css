@@ -1,16 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 15px;
-  /* color: hsl(228, 45%, 44%); */
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
   height: 100vh;
   background-color: hsl(233, 47%, 7%);
 }
@@ -18,28 +17,62 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 2px solid red;
-  width: 80%;
-  background-color: hsl(244, 38%, 16%);
+  width: 70%;
+  border-radius: 18px;
 }
 
 .text {
-  padding: 30px;
-  color: aliceblue;
+  padding: 40px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: "Inter", sans-serif;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 18px 0 0 18px;
 }
+
+.text h3 {
+  font-size: 32px;
+}
+
 .text h3 span {
   color: hsl(277, 64%, 61%);
 }
+
 .text p {
-  color: hsla(0, 0%, 100%, 0.6);
+  color: hsla(0, 0%, 100%, 0.4);
+  padding-top: 10px;
+  line-height: 1.5rem;
 }
-.img img {
+
+.img {
+  background-image: url("./images/image-header-desktop.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 18px 18px 0;
+
   width: 100%;
-  height: 100%;
-  background: hsl(277, 64%, 61%);
+  height: auto;
 }
 
 .alt {
   display: flex;
-  margin-top: 20px;
+  margin-top: 45px;
+  font-family: "Inter", sans-serif;
+  gap: 5rem;
 }
+
+.alt h3 {
+  font-size: 20px;
+}
+
+.alt p {
+  font-size: 8px;
+}
+
+.img .imgback {
+  border-radius: 0 18px 18px 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.525);
+}
+
